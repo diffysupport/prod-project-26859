@@ -16,6 +16,11 @@ basic:
         - /ms_widget_builder/ew-get-roofing-quotes
         - /ms_widget_builder/ew-get-solar-quotes
         - /ms_widget_builder/ew-get-window-quotes
+        - /ms_widget_builder/get-a-solar-energy-world-quote
+        - /ms_widget_builder/get-a-momentum-solar-quote
+        - /ms_widget_builder/get-a-sunrun-quote
+        - /ms_widget_builder/get-an-olshan-quote
+        - /ms_widget_builder/get-a-leafguard-quote
     monitoring:
         days: [Sun]
         type: weekly
@@ -37,6 +42,17 @@ advanced:
     night_mode: false
     retina_images: false
     single_ip: false
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
